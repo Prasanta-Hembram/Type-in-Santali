@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="story"></div>
+<div id="siteFooter">
+    <div id="question"></div>
+    <div id="answer">ᱟᱢᱟᱜ ᱛᱮᱞᱟ ᱟᱫᱮᱨ ᱛᱟᱢ:
+        <input type="text" id="yourAnswer" />
+        <button type="button" id="submit">Go!</button>
+    </div>
+</div>
+<!-- everything under here is hidden using CSS so that we can display it later using JavaScript -->
+<div class="storyPart" id="answer01">
+    <p>ᱪᱮᱫ ᱪᱤᱠᱟᱹ ᱥᱮᱱᱟᱢ ᱠᱟᱱᱟ? ᱢᱟᱨᱥ ᱨᱮ ᱛᱟᱦᱮᱸᱱᱟᱢ ᱥᱮ ᱚᱲᱟᱜ ᱨᱮ ᱛᱟᱦᱮᱸᱱᱟᱢ?</p>
+</div>
+<div class="storyPart" id="answer02">
+    <p>ᱥᱚᱡᱽ ᱞᱮᱱ ᱠᱷᱟᱱ ᱦᱚᱭ ᱨᱮ ᱚᱛᱟᱭ ᱢᱮ!</p>
+</div>
+<div class="storyPart" id="err0">
+    <p>ᱫᱟᱭᱟᱠᱟᱛᱮ ᱦᱚᱭ / ᱵᱟᱝ ᱚᱞ ᱢᱮ</p>
+</div>
+<div class="storyPart" id="answer11">
+    <p>ᱵᱟᱨᱭᱟ ᱠᱷᱚᱱ ᱢᱤᱫᱴᱟᱹᱝ ᱵᱟᱪᱷᱟᱣ ᱢᱮ: ᱡᱚᱢᱟᱜ ᱟᱲᱟᱜᱽᱟᱢ ᱠᱟᱛᱮ ᱫᱟᱬᱟᱱᱟᱢ ᱥᱮ ᱱᱤᱛ ᱜᱮ ᱚᱲᱟᱜ ᱪᱟᱞᱟᱜᱼᱟᱢ᱾ ᱪᱮᱫ ᱮᱢ ᱪᱤᱠᱟᱹᱭᱟ ?</p>
+</div>
+<div class="storyPart" id="answer12">
+    <p>ᱟᱢ ᱚᱲᱟᱜ ᱨᱮ ᱛᱟᱦᱮᱸ ᱥᱮᱱᱟᱢ ᱠᱟᱱᱟ᱾ ᱢᱮᱱᱠᱷᱟᱱ ᱟᱢ ᱟᱧᱡᱚᱢ ᱠᱮᱜᱼᱟᱢ ᱟᱢ ᱯᱷᱨᱤ ᱯᱤᱡᱟ ᱢᱤᱫ ᱡᱟᱭᱜᱟ ᱨᱮ ᱠᱚ ᱮᱢᱚᱜ ᱠᱟᱱᱟ!</p>
+</div>
+<div class="storyPart" id="err1">
+    <p>ᱫᱟᱭᱟᱠᱟᱛᱮ "ᱢᱟᱨᱥ ᱛᱮ ᱪᱟᱞᱟᱜ ᱢᱮ" ᱟᱨ ᱵᱟᱝ "ᱚᱲᱟᱜ ᱨᱮ ᱛᱟᱦᱮᱸᱱ ᱢᱮ" ᱥᱮᱫ ᱩᱫᱩᱜᱽ ᱢᱮ</p>
+</div>
+<div class="storyPart" id="answer21">
+    
+    <p>ᱟᱹᱵᱤᱱ ᱴᱷᱮᱱ ᱱᱤᱛᱚᱜ ᱡᱟᱢᱟᱜ ᱢᱮᱱᱟᱜᱼᱟ᱾</p>
+</div>
+<div class="storyPart" id="answer22">
+    <p>ᱢᱮᱱᱠᱷᱟᱱ ᱟᱢ ᱴᱷᱮᱱ ᱥᱮᱛᱟ ᱛᱟᱦᱮᱸ ᱠᱟᱱᱟᱭ ᱩᱱᱤ ᱟᱢ ᱧᱮᱞ ᱛᱮ ᱠᱩᱥᱤ ᱮᱱᱟᱭ!</p>
+</div>
+<div class="storyPart" id="err2">
+    <p>ᱫᱟᱭᱟᱠᱟᱛᱮ "ᱪᱟᱞᱟᱜ ᱢᱮ" ᱵᱟᱝᱠᱷᱟᱱ "ᱚᱲᱟᱜ ᱛᱮ" ᱚᱞ ᱢᱮ᱾</p>
+</div>
+᱐
+<div class="storyPart" id="answer44">   
+    <p>ᱩᱱᱤ ᱵᱤᱝ ᱫᱚᱭᱟ ᱜᱚᱡ ᱮᱱᱟᱭ᱾</p>
+</div>
+<div class="storyPart" id="answer45">
+    <p>ᱵᱤᱝ ᱫᱚ ᱵᱟᱹᱭ ᱵᱟᱹᱭ ᱛᱮ ᱯᱟᱨᱚᱢ ᱮᱱᱟᱭ!</p>
+</div>
+<div class="storyPart" id="err3">
+    <p>ᱫᱟᱭᱟᱠᱟᱛᱮ "ᱜᱚᱡᱽ ᱮᱢ" ᱟᱨᱵᱟᱝᱠᱷᱟᱱ "ᱟᱲᱟᱜᱽᱮᱢ" ᱚᱞ ᱢᱮ᱾</p>
+</div>
+<script src="JavaScript.js"></script>
+</body>
+</html>
+
+Pangram checker
